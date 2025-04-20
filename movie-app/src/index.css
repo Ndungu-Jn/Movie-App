@@ -1,0 +1,7 @@
+/* basic format to refactor the page using css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
