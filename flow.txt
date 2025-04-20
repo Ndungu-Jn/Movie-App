@@ -1,0 +1,2 @@
+any verb that starts with the word  use -- is regarded as a hook.
+-- a state is not persistent in the browser

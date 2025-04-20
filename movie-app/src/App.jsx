@@ -1,15 +1,22 @@
+import { useState } from "react";
+
 const Card = ({ title }) => {
+  const [hasLiked, setHasLiked] = useState(false);
+
   return (
-    <div>
+    <div className="card">
       <h2>{title}</h2>
+
+      <button onClick={() => setHasLiked(!hasLiked)}>
+        {hasLiked ? "❤️" : "🤍"}
+      </button>
     </div>
   );
 };
 
 const App = () => {
   return (
-    <div>
-      <h2>Functional Arrow Function</h2>
+    <div className="card-container">
       <Card
         title="starwars"
         rating={5}

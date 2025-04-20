@@ -1,7 +1,47 @@
-/* basic format to refactor the page using css */
+/* basic format to refactor/reset the page using css */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  padding: 40px;
+  background-color: #151515;
+  font-family: "Franklin Gothic  Medium", Arial;
+}
+
+h2 {
+  color: #f3f3f3;
+  text-align: center;
+
+  font-size: 48px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid #4b5362;
+  margin: 10px;
+  padding: 20px;
+  background-color: #31363f;
+  border-radius: 10px;
+  min-height: 100px;
+}
+
+button {
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
 }
